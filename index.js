@@ -70,14 +70,6 @@ function updateScore(didPlayerWin) {
 
 function checkWinner() {
   const outcome = document.querySelector("#isGameOver");
-  // if (PLAYER_WINS === 5 || COMPUTER_WINS === 5) {
-  //   outcome.textContent = "Game Over!";
-  //   PLAYER_WINS = 0;
-  //   COMPUTER_WINS = 0;
-  // } else {
-  //   outcome.textContent = "Keep playing!";
-  // }
-
   if (PLAYER_WINS === 5) {
     outcome.textContent = "You have won, congratulations!";
     PLAYER_WINS = 0;
