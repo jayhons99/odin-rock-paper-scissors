@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* -------------------------------- CUSTOM STYLES START HERE ---------------------------------------------------- */
+
+.header {
+  font-family: "Bebas Neue", cursive;
+}
+
+.header {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  color: #3d405b;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+}
+
+.header .score {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  padding: 15rem;
+  background-color: #588157;
+}
+
+#results {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+
+#results div {
+  margin: 3rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+
+.choice {
+  border: none;
+  font-size: 32px;
+  height: auto;
+  width: 10rem;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#rock {
+  background-color: #0077b6;
+}
+
+#paper {
+  background-color: #ef233c;
+}
+
+#scissors {
+  background-color: #ffc300;
+}
+
+.choice:hover {
+  cursor: pointer;
+}
+
+#rock:hover {
+  color: #0077b6;
+  background-color: black;
+}
+
+#paper:hover {
+  color: #ef233c;
+  background-color: black;
+}
+
+#scissors:hover {
+  color: #ffc300;
+  background-color: black;
+}
+
+.fill {
+  background-color: bisque;
+  padding: 13rem;
+}

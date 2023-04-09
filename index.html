@@ -10,17 +10,30 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+    </style>
   </head>
   <body>
     <!-- UI implementation  -->
-    <button id="rock" class="choice">Rock</button>
-    <button id="paper" class="choice">Paper</button>
-    <button id="scissors" class="choice">Scissors</button>
-    <div id="result"></div>
-    <div class="score">Computer: <span id="compScore">0</span></div>
-    <div class="score">Player: <span id="playerScore">0</span></div>
-    <div id="isGameOver">First to win 5 rounds wins the game!</div>
+    <div class="header">
+      <div class="score">Computer: <span id="compScore">0</span></div>
+      <h1>Rock, Paper, Scissors</h1>
+      <div class="score">Player: <span id="playerScore">0</span></div>
+    </div>
+    <div class="main">
+      <div class="choices">
+        <button id="rock" class="choice">Rock</button>
+        <button id="paper" class="choice">Paper</button>
+        <button id="scissors" class="choice">Scissors</button>
+      </div>
+      <div id="results">
+        <div id="result"></div>
+        <div id="isGameOver">First to win 5 rounds wins the game!</div>
+      </div>
+    </div>
+    <div class="fill"></div>
     <script src="index.js" async defer></script>
   </body>
 </html>
